@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border: 2px solid transparent; background-clip: padding-box;
+    overflow: hidden; 
+    border-radius: 25px;
+    background-color: white;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 20px;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.descripcion {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #1684f9;
+    color: white;
+    border-style: solid;
+}
